@@ -1,0 +1,83 @@
+body {
+  margin-top: 2rem;
+  font-family: 'Poppins', sans-serif;
+}
+
+.checked {
+  margin-left: 1rem;
+
+  label {
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+  }
+}
+
+.container {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 3rem;
+
+  .maior-menor-media {
+    display: flex;
+    border: 2px solid #9a9a9a6b;
+    box-shadow: 0px 2px 9px rgb(0 0 0 / 14%);
+    width: 25%;
+    justify-content: space-evenly;
+    border-radius: 5px;
+
+    img {
+      height: 81px;
+      width: 81px;
+      display: flex;
+      justify-content: center;
+      margin-top: 1rem;
+      border: 4px solid transparent;
+      background: #F0EFFB;
+      border-radius: 50%;
+      margin-bottom: 1rem;
+    }
+
+    .textos {
+      display: flex;
+      flex-direction: column;
+      justify-content: inherit;
+
+      .values {
+        text-align: center;
+      }
+    }
+  }
+}
+
+.graficos {
+  box-shadow: 0px 2px 9px rgba(0, 0, 0, 0.14);
+  width: 91.7%;
+  border-radius: 5px;
+  margin-top: 2rem;
+  margin-left: 3.2rem;
+
+  table {
+    text-align: center;
+  }
+
+  table td {
+    border: solid 1px rgba(113, 131, 155, 0.5019607843);
+    text-align: center;
+    padding: 24px 2rem;
+    max-width: 84px;
+  }
+}
+
+.charts {
+  display: flex;
+}
+
+.pie {
+  flex: 1;
+  height: 17rem;
+  margin-top: 1rem;
+}
+
+.line {
+  flex: 1;
+}
